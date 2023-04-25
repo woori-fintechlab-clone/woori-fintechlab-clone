@@ -169,6 +169,7 @@ footer {
   padding: 30px 100px;
   background: #151414;
   color: #fff;
+  margin-top: 50px;
 }
 footer img {
   width: 20%;
@@ -623,3 +624,185 @@ footer article {
   font-size: 18px;
 }
 /* 철원 끝 */
+
+.section-div-KdigitBackground {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg01.jpg);
+  background-size: cover;
+  height: 623px;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-span-parent {
+  width: 1100px;
+  height: 380px;
+}
+
+.section-span-title_K-DigitalTraning {
+  padding-bottom: 60px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+
+  justify-content: center;
+}
+
+.section-span_K-DigDes {
+  line-height: 43.2px;
+  text-align: center;
+  font-size: 24px;
+  color: #eee;
+}
+.section-div-emptyBackground {
+  width: auto;
+  height: 100px;
+}
+
+.section-div-parent {
+  background-color: #e9f6fd;
+}
+.section-div-wooriEduphase {
+  /* background-size: cover; */
+}
+
+.section-span-title_wooriEduphase {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.section-span-title_sub {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.section-div-allintro {
+  width: 1120px;
+  height: 508px;
+}
+.section-div-allintro_title {
+  text-align: left;
+  font-size: 28px;
+  padding-bottom: 30px;
+  color: #004098;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.section-div-ul-allintro {
+  display: flex;
+}
+
+.ul-parent {
+  background-color: white;
+  height: 400px;
+}
+
+.flex-el {
+  background-color: white;
+  width: 33%;
+  height: 36px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  padding: 10px;
+  color: grey;
+}
+
+.flex-el-blue {
+  background-color: #004098;
+  color: white;
+}
+
+.section-div-lectureDesTitle {
+  display: inline-block;
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: #004098;
+}
+.section-div-lectureDes {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.section-div-lectureDesUl {
+  padding-bottom: 30px;
+  padding-left: 20px;
+  font-size: 20px;
+  list-style-type: disc;
+}
+
+.section-section-engineeringPhase {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-div-section-engineeringPhase {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 293px;
+  height: 450px;
+  padding: 30px;
+  margin: 10px;
+  border: 2px solid lightgrey;
+  background-color: white;
+  border-radius: 20px;
+}
+.section-div-section-PhaseTitle {
+  /* background-color: white; */
+  color: #004098;
+  padding-bottom: 20px;
+}
+
+.section-div-section-Due {
+  color: #004098;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+.section-div-span-temp {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.section-div-section-btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  /* width: 40%; /
+  / height: 10px; */
+  border-width: 3px;
+  border-style: solid;
+  border-color: blue;
+}
+
+.section-div-section-btnSubmit {
+  text-align: center;
+  color: white;
+  justify-content: center;
+  border-style: solid;
+  border-width: 2px;
+  width: 100%;
+  border-radius: 80px 80px 80px 80px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: #004097;
+  margin-bottom: 0px;
+}
