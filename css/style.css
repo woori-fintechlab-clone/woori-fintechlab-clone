@@ -8,13 +8,251 @@
   font-family: wooridaum;
   src: url(../font/WooridaumR.otf);
 }
-/* http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg.jpg" */
+
 html,
 body {
   font-family: wooridaum, sans-serif;
+  overflow-x: hidden;
 }
-
 .w1140 {
   width: 1140px;
   margin: 0 auto;
+}
+
+/* ---Common-E --- */
+
+/* header */
+header {
+  width: 100%;
+  z-index: 20;
+  position: fixed;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  transition: all 0.5s;
+}
+header.active {
+  background: #fff;
+  color: #000;
+}
+
+nav {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo > a {
+  padding: 10px 0;
+}
+.logo > a img {
+  width: 197px;
+  image-rendering: -webkit-optimize-contrast; /* chrome(비표준) */
+  image-rendering: crisp-edges;
+}
+.nav-list {
+  display: flex;
+}
+.nav-list li a {
+  display: inline-block;
+  padding: 23px 20px;
+}
+.nav-list li:hover {
+  background: var(--main-blue);
+}
+
+.skip-navigation,
+.hidden_title {
+  display: block;
+  width: 0;
+  height: 0;
+  font-size: 0;
+}
+
+/* main */
+#main-top {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg.jpg")
+    no-repeat center / cover;
+  filter: brightness(40%);
+}
+
+#main-top article {
+  color: #fff;
+  text-align: center;
+  z-index: 10;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+#main-top article p:nth-of-type(1) {
+  width: fit-content;
+  position: relative;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0 auto;
+}
+#main-top article p:nth-of-type(1)::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 1px;
+  background: #fff;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+}
+#main-top article p:nth-of-type(2) {
+  font-size: 2.5em;
+}
+#main-top article h3 {
+  font-size: 3.75em;
+  font-weight: 700;
+}
+#main-top article h3 span {
+  padding: 20px 10px;
+  background: var(--main-blue);
+}
+
+/* youtube box */
+
+.youtube {
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #0676bb 0%, #7b29f2 100%);
+}
+.youtube__boxwrap {
+  display: flex;
+  justify-content: space-between;
+}
+.youtube__boxwrap-content {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+.youtube__boxwrap-content h4 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+.youtube__boxwrap-content figure {
+  aspect-ratio: 16 / 9;
+}
+.youtube__boxwrap-content:nth-of-type(1) figure {
+  background-image: url("http://woorifuturelab.com/wp-content/uploads/2023/03/우리FIS_이벤트썸네일.png")
+    no-repeat center / cover;
+}
+.youtube__boxwrap-content:nth-of-type(1) figure {
+  background-image: url("http://woorifuturelab.com/wp-content/uploads/2023/03/video_02.jpg")
+    no-repeat center / cover;
+}
+
+/* footer */
+
+footer {
+  padding: 30px 100px;
+  background: #151414;
+  color: #fff;
+}
+footer img {
+  width: 20%;
+  height: 20%;
+  image-rendering: -webkit-optimize-contrast; /* chrome(비표준) */
+  image-rendering: crisp-edges;
+}
+footer article {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.footer__info {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.footer__info-box {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer__info-box h2 {
+  font-size: 30px;
+  color: #b5d6ff;
+}
+.footer__info-box ul li {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.footer__info-box ul li:hover {
+  color: var(--main-blue);
+}
+.footer__text-copyright {
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 1300px) {
+  nav {
+    width: 90%;
+  }
+  .w1140 {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  header {
+    padding: 20px 0;
+  }
+  .nav-list {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  #main-top {
+    font-size: 8px;
+  }
+  #main-top article h3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #main-top article h3 span {
+    display: inline-block;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .youtube__boxwrap {
+    flex-direction: column;
+  }
+
+  footer {
+    padding: 50px 20px;
+  }
+  footer img {
+    width: 40%;
+  }
+  footer article {
+    gap: 20px;
+    flex-direction: column;
+  }
 }
