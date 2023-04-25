@@ -1,0 +1,19 @@
+:root {
+  --main-blue: #0676bb;
+  --sub-blue: #e3eff6;
+  --button-bg: #004098;
+  --text-color: #05449a;
+}
+@font-face {
+  font-family: wooridaum;
+  src: url(./font/WooridaumR.otf);
+}
+
+html,
+body {
+  font-family: wooridaum, sans-serif;
+}
+
+.w1140 {
+  width: 1140px;
+}
