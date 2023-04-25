@@ -6,9 +6,9 @@
 }
 @font-face {
   font-family: wooridaum;
-  src: url(./font/WooridaumR.otf);
+  src: url(../font/WooridaumR.otf);
 }
-
+/* http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg.jpg" */
 html,
 body {
   font-family: wooridaum, sans-serif;
