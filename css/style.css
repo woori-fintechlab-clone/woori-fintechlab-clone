@@ -454,3 +454,172 @@ footer article {
     flex-direction: column;
   }
 }
+
+/* 철원 시작 */
+.contents__introduce1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents__introduce1--title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  margin-top: 100px;
+  padding: 40px 0px 40px 0px;
+  text-align: center;
+}
+
+.contents__common--divider {
+  display: flex;
+  border: 1px solid #0476bb;
+  font-size: 18px;
+  width: 56px;
+  margin-bottom: 25px;
+}
+
+.contents__introduce1--content {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  padding: 0px 140px 0px 140px;
+  text-align: center;
+}
+
+.contents__introduce2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 452.195px;
+  background-image: url("http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg03.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+}
+
+.contents__introduce2--el {
+  background-color: #4c2165;
+  opacity: 0.7;
+  width: 492px;
+  height: 150px;
+  margin: 10px;
+  padding: 50px 28px;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 5px;
+}
+
+.contents__introduce2--el:hover {
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+.bg-brown {
+  background-color: #4a212a;
+}
+
+.contents__introduce3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 236px;
+  background-color: var(--main-blue);
+}
+
+.contents__introduce3--content {
+  width: 1120px;
+  height: 96px;
+}
+
+.contents__introduce3--title1 {
+  color: white;
+  line-height: 33.6px;
+  font-size: 28px;
+  text-align: center;
+  padding: 10px;
+}
+
+.contents__introduce3--title2 {
+  color: white;
+  line-height: 43.2px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.contents__introduce4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents__introduce4--title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  margin-top: 50px;
+  padding: 40px 0px 10px 0px;
+  text-align: center;
+}
+
+.contents__introduce4--content {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  padding: 0px 140px 25px 140px;
+  text-align: center;
+}
+.contents__introduce5 {
+}
+
+.contents__introduce5--section {
+  background-color: var(--sub-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  width: 550px;
+  height: 500px;
+  margin: 40px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-col {
+  box-sizing: border-box;
+  background-color: white;
+  padding: 40px 10px;
+  width: 100%;
+  height: 240px;
+  box-shadow: 0 3px 40px rgba(36, 36, 36, 0.1);
+}
+
+.flex-col:hover {
+  box-shadow: 0 3px 15px var(--main-blue);
+  transition: all 0.5;
+}
+
+.contents__introduce5--section2 {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-row2 {
+  width: 185px;
+  height: 60px;
+  padding: 10px;
+  background-color: var(--sub-blue);
+  border-radius: 10px;
+  color: var(--text-color);
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+}
+/* 철원 끝 */
