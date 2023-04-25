@@ -20,14 +20,14 @@ body {
 }
 
 /* 철원 시작 */
-.contents__introduce--one {
+.contents__introduce1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.contents__introduce--title {
+.contents__introduce1--title {
   font-size: 36px;
   font-weight: 700;
   line-height: 43.2px;
@@ -36,7 +36,7 @@ body {
   text-align: center;
 }
 
-.contents__introduce--divider {
+.contents__introduce1--divider {
   display: flex;
   border: 1px solid #0476bb;
   font-size: 18px;
@@ -44,12 +44,43 @@ body {
   margin-bottom: 25px;
 }
 
-.contents__introduce--content {
+.contents__introduce1--content {
   font-size: 20px;
   font-weight: 400;
   line-height: 36px;
   padding: 0px 140px 0px 140px;
   text-align: center;
+}
+
+.contents__introduce2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 452.195px;
+  background-image: url("http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg03.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+}
+
+.contents__introduce2--el {
+  background-color: #4c2165;
+  opacity: 0.7;
+  width: 492px;
+  height: 150px;
+  margin: 10px;
+  padding: 50px 28px;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 5px;
+}
+
+.contents__introduce2--el:hover {
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+.bg-brown {
+  background-color: #4a212a;
 }
 
 /* 철원 끝 */
