@@ -229,7 +229,7 @@ footer article {
 }
 
 .contents-faq {
-  background-image: url(http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg02.jpg);
+  background-image: url("http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg02.jpg");
 }
 
 .faq-title {
@@ -264,7 +264,7 @@ footer article {
 
 .faq-background-img {
   background-attachment: scroll;
-  background-image: url(http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg02.jpg);
+  background-image: url("http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg02.jpg");
   background-position-x: 50%;
   background-position-y: 50%;
   background-size: cover;
@@ -629,7 +629,7 @@ footer article {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg01.jpg);
+    url("http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg01.jpg");
   background-size: cover;
   height: 623px;
   background-position-x: 50%;
