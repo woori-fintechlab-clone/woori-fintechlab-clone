@@ -145,6 +145,10 @@ nav {
   padding: 10px;
   border: 1px solid #fff;
 }
+.youtube__boxwrap-content div {
+  height: 315px;
+  background: rgba(0, 0, 0, 0.6);
+}
 .youtube__boxwrap-content h4 {
   color: #fff;
   font-size: 18px;
