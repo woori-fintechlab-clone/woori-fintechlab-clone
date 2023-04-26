@@ -84,8 +84,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg.jpg")
-    no-repeat center / cover;
+  background: url("../img/main_bg.jpg") no-repeat center / cover;
   filter: brightness(40%);
 }
 
@@ -145,10 +144,7 @@ nav {
   padding: 10px;
   border: 1px solid #fff;
 }
-.youtube__boxwrap-content div {
-  height: 315px;
-  background: rgba(0, 0, 0, 0.6);
-}
+
 .youtube__boxwrap-content h4 {
   color: #fff;
   font-size: 18px;
@@ -160,12 +156,10 @@ nav {
   aspect-ratio: 16 / 9;
 }
 .youtube__boxwrap-content:nth-of-type(1) figure {
-  background-image: url("http://woorifuturelab.com/wp-content/uploads/2023/03/우리FIS_이벤트썸네일.png")
-    no-repeat center / cover;
+  background-image: url("../img/eventthumb.png") no-repeat center / cover;
 }
 .youtube__boxwrap-content:nth-of-type(1) figure {
-  background-image: url("http://woorifuturelab.com/wp-content/uploads/2023/03/video_02.jpg")
-    no-repeat center / cover;
+  background-image: url("../img/videothumb.jpg") no-repeat center / cover;
 }
 
 /* footer */
@@ -234,7 +228,7 @@ footer article {
 }
 
 .contents-faq {
-  background-image: url("http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg02.jpg");
+  background-image: url("../img/main_bg02.jpg");
 }
 
 .faq-title {
@@ -269,7 +263,7 @@ footer article {
 
 .faq-background-img {
   background-attachment: scroll;
-  background-image: url("http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg02.jpg");
+  background-image: url("../img/main_bg02.jpg");
   background-position-x: 50%;
   background-position-y: 50%;
   background-size: cover;
@@ -499,7 +493,7 @@ footer article {
   justify-content: center;
   align-items: center;
   height: 452.195px;
-  background-image: url("http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg03.jpg");
+  background-image: url("../img/main_bg03.jpg");
   background-position-x: 50%;
   background-position-y: 50%;
   background-size: cover;
@@ -634,7 +628,7 @@ footer article {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("http://woorifuturelab.com/wp-content/uploads/2023/03/main_bg01.jpg");
+    url("../img/main_bg04.jpg");
   background-size: cover;
   height: 623px;
   background-position-x: 50%;
