@@ -4,17 +4,24 @@
 
 ## Convention
 
+- BEM(Block, Element, Modifier) 네이밍 방법론 적용 -> 개선 필요
+
 ### HTML
 
-- semaintic tag 최대한 활용
-- W3C validation check:웹접근성 준수
-  - skip-navigation
-  - hidden title
-- Lighthose로 성능 체크
+- `<semaintic>` 태그: 웹 접근성 고려 및 직관적인 HTML 구조
+- hidden title 적용
+- favicon 설정
+- `<iframe>` 태그를 활용한 동영상 첨부
+- `<a>` 태그를 활용한 페이지 내부 이동
 
 ### CSS
 
+- `reset.css` 적용
+- 중점적으로 `flex` 적용
 - 변수에 자주 사용되는 COLOR 저장하여 활용
+- woori 폰트 적용
+- 미디어 쿼리 적용
+- `hover` 기능 적용
 
 ## 개선점
 
